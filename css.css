@@ -1,11 +1,10 @@
 *{
     background-color:skyblue;
 }
-h1{
+caption{
     text-align:center;
     color:blue;
     text-shadow: 4px 4px 10px maroon;
-    padding:5%;
 }
 table{
     border:3px solid maroon;
