@@ -4,8 +4,16 @@ function outputmessage() {
     var thirdNumber= document.getElementById("thirdvalue").value;
     var text;
 
+     if(firstNumber <=0 || secondNumber<=0 || thirdNumber<=0){
+         text="A triangle must have 3 sides with positive definate length!";
+    }
+    //if is not trianle
+    else if(firstNumber + secondNumber <= thirdNumber && firstNumber + thirdNumber <= secondNumber && secondNumber + thirdNumber <= firstNumber){
+        text = "Is Not Triangle";
+    
+    }
     //if triangle is equivalent
-    if(firstNumber===secondNumber && secondNumber===thirdNumber) {
+    else if(firstNumber===secondNumber && secondNumber===thirdNumber) {
         text = "The triangle is equivalent.";   
     }
     //if triangle is isosceles
@@ -14,9 +22,9 @@ function outputmessage() {
     } 
     //if triangle is scalene
     else if(firstNumber!==secondNumber && firstNumber!==thirdNumber && secondNumber!==thirdNumber) {
-        text="triangle is scalene "
+        text="triangle is scalene ";
     }
-   
+    
     else {
            text = "error";
         }
