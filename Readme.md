@@ -8,6 +8,17 @@ the website is created using css for the design,html for the structure and Javas
 * having bundle to access the internet
 * open the browser and type on your browser the following link 
 * https://kayitares.github.io/assessement
+## BDD(Behavior-Driven Development)
+### The following is what my program should handle:
+
+| Behavior | Input Example |Numerical Example| Output Example |
+| :----:   | :-----------: | :------------: | :---------------|
+|triangle is isoscele| any two side are equal|12; 1; 12|Isoscele Triangle     |
+|triangle is equilateral| all side are equal|12; 12; 12| Equilateral Triangle|
+|triangle is scalene|all 3 sides is not equal |12 ; 13; 14| Scalene Triangle|
+|is not a triangle | the sum of any two sides is less or equal to the third  |50; 5; 4|Not a Triangle|
+||triangle must have 3 sides with positive definate length! | 12|triangle must have 3 sides with positive definate length!|
+
 ## SPECS
 * The program should accept input from the user
        * input example:3,3,3
@@ -40,4 +51,5 @@ no bugs known
 ## Support and contact details
 Need support please contact us on my email: cyntkayitare@gmail.com
 ### License*
+[MIT](https://choosealicense.com/licenses/mit/)
 Copyright (c) 2018**KAYITARE Cynthia**
