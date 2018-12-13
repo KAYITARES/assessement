@@ -17,7 +17,7 @@ the website is created using css for the design,html for the structure and Javas
 |triangle is equilateral| all side are equal|12; 12; 12| Equilateral Triangle|
 |triangle is scalene|all 3 sides is not equal |12 ; 13; 14| Scalene Triangle|
 |is not a triangle | the sum of any two sides is less or equal to the third  |50; 5; 4|Not a Triangle|
-||triangle must have 3 sides with positive definate length! | 12|triangle must have 3 sides with positive definate length!|
+|triangle must have 3 sides with positive definate length!|make 3 positive number | 12|triangle must have 3 sides with positive definate length!|
 
 ## SPECS
 * The program should accept input from the user
