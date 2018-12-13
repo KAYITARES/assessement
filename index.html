@@ -5,15 +5,17 @@
         <link rel="stylesheet" href="css.css" type="text/css">
     </head>
     <body>
+        <script src="script.js"></script>
         <h1>TRIANGLE TRACK</h1>
-        <form>
-            <div class="form">
-                <table>
-                <p><strong>Enter First Lenght:</strong><input type="text" placeholder="Enter first lenght value" name="firstvalue"></p>
-                <p><strong>Enter Seccond Lenght:</strong><input type="text" placeholder="Enter second lenght value" name="secondtvalue"></p>
-                <p><strong>Enter Third Lenght:</strong><input type="text" placeholder="Enter third lenght value" name="thirdvalue"></p>
-                <button type="submit" input="reset" value="Submit">Submit</button>
+        <div id="form">
+            <div class="forms">
+                <p><strong>Enter First Lenght:</strong><input type="text" placeholder="Enter first lenght value" id="firstvalue"></p>
+                <p><strong>Enter Seccond Lenght:</strong><input type="text" placeholder="Enter second lenght value" id="secondtvalue"></p>
+                <p><strong>Enter Third Lenght:</strong><input type="text" placeholder="Enter third lenght value" id="thirdvalue"></p>
+                <button onclick="outputmessage()">Submit</button>
             </div>
-    </form>
+            <p id="demo"></p>
+        </div>
+      
     </body>
 </html>

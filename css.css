@@ -7,8 +7,9 @@ h1{
     color:blue;
     text-shadow: 4px 4px 10px gold;
     padding-top:15%; 
+ 
 }
-form{
+#form{
     border:3px solid maroon;
     margin-left:34%;
     margin-right: 34%;
@@ -18,7 +19,7 @@ form{
    
 }
 
-.form p {
+.forms p {
    
   font-style:italic;
   font-size:24px;
@@ -27,19 +28,34 @@ form{
   }
  
   button{
-   padding:2%;
-   margin-left:77%;
-   margin-bottom: 2%;
-   border:2px solid maroon;
+    padding:2%;
+   margin-left:65%;
+   border:2px solid blue;
    border-radius:30%;
-   background-color:mediumpurple;
    width:20%;
    font-size:20px;
+   display: inline-block;
+   background-color: #3e8e41;
+   box-shadow: 0 5px #666;
   }
+button:hover {background-color: #3e8e41}
+
+button:active {
+    background-color:green;
+    box-shadow: 0 5px maroon;
+  transform: translateY(4px);
+}
  input{
      padding:2%;
      width:40%;
      float:right;
      margin-right:15%;
  }
+#demo{
+    text-align:center;
+    font-size:24px;
+    text-shadow: 4px 4px 4px maroon;
+    background-color:rgb(60, 61, 60);
+    color:yellow;
 
+}
