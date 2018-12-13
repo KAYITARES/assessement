@@ -12,9 +12,9 @@ function outputmessage() {
         text = "Is Not Triangle";
     
     }
-    //if triangle is equivalent
+    //if triangle is equilateral
     else if(firstNumber===secondNumber && secondNumber===thirdNumber) {
-        text = "The triangle is equivalent.";   
+        text = "The triangle is equilateral.";   
     }
     //if triangle is isosceles
     else if(firstNumber===secondNumber || firstNumber===thirdNumber || secondNumber===thirdNumber) {

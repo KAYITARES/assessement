@@ -1,21 +1,43 @@
-# TRIANGLE TRACK
-#### {Brief description of application}, {Date of current version}
-#### By **{List of contributors}**
+# TRIANGLE TRACKER
+#### Triangle Tracker is awebsite that used to track name of the triangle, December,13th,2018
+#### By **KAYITARE Cynthia**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+the website is created using css for the design,html for the structure and Javascript for its function, where user enter the 3 number value of the length and the system help them to knownm the name of the triangle based on the value he/she enter.
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+* must have computer or smart phone
+* having bundle to access the internet
+* open the browser and type on your browser the following link 
+* https://kayitares.github.io/assessement
+## SPECS
+* The program should accept input from the user
+       * input example:3,3,3
+       * output:the triangle is equilateral
+* The program should accept only 3 positive numbers
+       * input example:12
+       * output:a triangle must have 3 sides with positive definate length!
+ * The program should accept return when triangle is not been created
+       * input example:40,5,3
+       * output:is not a triangle
+ * The program should respond if the triangle is equilateral
+       * input example:12,12,12
+       * output:the triangle is equilateral      
+  * The program should respond if the triangle is isosceles
+       * input example:12,1,12
+       * output:the triangle is isosceles        
+       
+  * The program should respond if the triangle is scalenes
+       * input example:12,13,14
+       * output:the triangle is scalenes    
+
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+no bugs known
 ## Technologies Used
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+## 1. front-end
+* HTML:used for structure
+* CSS: used for design
+ ## 2. back-end
+ * Javascript: Functionality
 ## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
-### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+Need support please contact us on my email: cyntkayitare@gmail.com
+### License*
+Copyright (c) 2018**KAYITARE Cynthia**
