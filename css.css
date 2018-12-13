@@ -2,6 +2,7 @@
     background-color:skyblue;
     
 }
+/*for the heading*/
 h1{
     text-align:center;
     color:blue;
@@ -9,6 +10,7 @@ h1{
     padding-top:15%; 
  
 }
+/*for the form*/
 #form{
     border:3px solid maroon;
     margin-left:34%;
@@ -18,7 +20,7 @@ h1{
     background-color:mediumpurple;
    
 }
-
+/*for the paragraph of the form*/
 .forms p {
    
   font-style:italic;
@@ -26,7 +28,7 @@ h1{
   margin-left: 2%;
   padding-top:3%;
   }
- 
+ /*for the submit button*/
   button{
     padding:2%;
    margin-left:65%;
@@ -38,6 +40,7 @@ h1{
    background-color: #3e8e41;
    box-shadow: 0 5px #666;
   }
+
 button:hover {background-color: #3e8e41}
 
 button:active {
@@ -45,12 +48,14 @@ button:active {
     box-shadow: 0 5px maroon;
   transform: translateY(4px);
 }
+/*for the input text*/
  input{
      padding:2%;
      width:40%;
      float:right;
      margin-right:15%;
  }
+ /*for the answer paragraph*/
 #demo{
     text-align:center;
     font-size:24px;
