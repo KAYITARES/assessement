@@ -3,10 +3,12 @@ function outputmessage() {
     var secondNumber = parseInt(document.getElementById("secondtvalue").value);
     var thirdNumber = parseInt(document.getElementById("thirdvalue").value);
     var text;
-
+    var array = [firstNumber, secondNumber, thirdNumber];
+    //if for entering positive value with 3side
     if (firstNumber <= 0 || secondNumber <= 0 || thirdNumber <= 0) {
         text = "A triangle must have 3 sides with positive definate length!";
     }
+    //if for not a triangle
     else if (
         (firstNumber + secondNumber <= thirdNumber &&
             secondNumber + firstNumber <= thirdNumber) ||
@@ -14,7 +16,7 @@ function outputmessage() {
             thirdNumber + firstNumber <= secondNumber) ||
         (secondNumber + thirdNumber <= firstNumber && thirdNumber + secondNumber <= firstNumber)
     ) {
-        text = "Not a Triangle";
+        text = " Not a Triangle";
 
     }
 
@@ -24,7 +26,7 @@ function outputmessage() {
         secondNumber === thirdNumber &&
         thirdNumber === firstNumber
     ) {
-        text = "The triangle is equilateral.";
+        text = " equilateral.";
     }
 
     //if triangle is isosceles
@@ -33,7 +35,7 @@ function outputmessage() {
         secondNumber === thirdNumber ||
         thirdNumber === firstNumber
     ) {
-        text = "The triangle is isosceles.";
+        text = " isosceles.";
     }
     //if triangle is scalene
     else if (
@@ -43,10 +45,12 @@ function outputmessage() {
 
         secondNumber !== thirdNumber
     ) {
-        text = "Triangle is scalene";
+        text = " scalene";
     }
+    //if triangle is eror
     else {
-        text = "error";
+        text = " error";
     }
-    document.getElementById("demo").innerHTML = text;
+    document.getElementById("demo").innerHTML = "the values you enter are:" + " [" + array.join() + "]" + "<br> The triangle formed is";
+    document.getElementById("demo").innerHTML += text.toUpperCase();
 }

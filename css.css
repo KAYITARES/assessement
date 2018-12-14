@@ -63,8 +63,8 @@ button:active {
 #demo{
     text-align:center;
     font-size:24px;
-    text-shadow: 4px 4px 4px maroon;
-    background-color:rgb(60, 61, 60);
-    color:yellow;
+    color:maroon;
+    background-color:cornflowerblue;
+   
 
 }
